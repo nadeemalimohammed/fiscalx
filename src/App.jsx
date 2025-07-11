@@ -1,5 +1,5 @@
 // src/App.jsx
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import { Home } from './pages/Home';
 import { IndividualTax } from './pages/IndividualTax';
 import { CorporateTax } from './pages/CorporateTax';
@@ -11,7 +11,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <Router basename="/fiscalx">
+    <Router>
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">
