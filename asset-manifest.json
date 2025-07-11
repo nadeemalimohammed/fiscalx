@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fiscalx/static/css/main.403d5127.css",
-    "main.js": "/fiscalx/static/js/main.f68bd31a.js",
+    "main.js": "/fiscalx/static/js/main.d2e355c8.js",
     "static/js/453.2850ac21.chunk.js": "/fiscalx/static/js/453.2850ac21.chunk.js",
     "index.html": "/fiscalx/index.html",
     "main.403d5127.css.map": "/fiscalx/static/css/main.403d5127.css.map",
-    "main.f68bd31a.js.map": "/fiscalx/static/js/main.f68bd31a.js.map",
+    "main.d2e355c8.js.map": "/fiscalx/static/js/main.d2e355c8.js.map",
     "453.2850ac21.chunk.js.map": "/fiscalx/static/js/453.2850ac21.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.403d5127.css",
-    "static/js/main.f68bd31a.js"
+    "static/js/main.d2e355c8.js"
   ]
 }
