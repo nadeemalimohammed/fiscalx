@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nadeemalimohammed/fiscalx/static/css/main.403d5127.css",
-    "main.js": "/nadeemalimohammed/fiscalx/static/js/main.d440e158.js",
-    "static/js/453.2850ac21.chunk.js": "/nadeemalimohammed/fiscalx/static/js/453.2850ac21.chunk.js",
-    "index.html": "/nadeemalimohammed/fiscalx/index.html",
-    "main.403d5127.css.map": "/nadeemalimohammed/fiscalx/static/css/main.403d5127.css.map",
-    "main.d440e158.js.map": "/nadeemalimohammed/fiscalx/static/js/main.d440e158.js.map",
-    "453.2850ac21.chunk.js.map": "/nadeemalimohammed/fiscalx/static/js/453.2850ac21.chunk.js.map"
+    "main.css": "/fiscalx/static/css/main.403d5127.css",
+    "main.js": "/fiscalx/static/js/main.f68bd31a.js",
+    "static/js/453.2850ac21.chunk.js": "/fiscalx/static/js/453.2850ac21.chunk.js",
+    "index.html": "/fiscalx/index.html",
+    "main.403d5127.css.map": "/fiscalx/static/css/main.403d5127.css.map",
+    "main.f68bd31a.js.map": "/fiscalx/static/js/main.f68bd31a.js.map",
+    "453.2850ac21.chunk.js.map": "/fiscalx/static/js/453.2850ac21.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.403d5127.css",
-    "static/js/main.d440e158.js"
+    "static/js/main.f68bd31a.js"
   ]
 }
