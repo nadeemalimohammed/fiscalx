@@ -250,7 +250,7 @@ export function BusinessServices() {
               </h3>
               <div className="space-y-2">
                 {registrationSteps.map((step, index) => (
-                  <div key={index} className="bg-white rounded-lg shadow-sm">
+                  <div key={index}>
                     <div className="flex items-center gap-4 mb-2">
                       <div className="w-4 h-4 bg-orange-100 rounded-full flex items-center justify-center">
                         <span className="text-orange-700 font-bold text-sm">{step.step}</span>

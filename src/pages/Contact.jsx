@@ -261,7 +261,7 @@ export function Contact() {
                 </div>
               </div>
               {/* Office Address */}
-              <div className="bg-gray-50 rounded-xl mb-8">
+              <div className="mb-8">
                 <div className="flex items-start gap-4">
                   <div className="rounded-xl flex items-center justify-center text-emerald-700 flex-shrink-0">
                     <FaMapMarkerAlt className="w-6 h-6" />

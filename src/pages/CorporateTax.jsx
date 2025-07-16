@@ -205,7 +205,7 @@ export function CorporateTax() {
               </h3>
               <div className="space-y-2">
                 {compliance.map((item, index) => (
-                  <div key={index} className="bg-gray-50 rounded-lg">
+                  <div key={index}>
                     <div className="flex items-center gap-2 mb-1">
                       <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
                       <span className="font-semibold text-orange-600">{item.deadline}</span>

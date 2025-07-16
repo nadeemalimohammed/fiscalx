@@ -35,7 +35,7 @@ export function IndividualTax() {
 
   const benefits = [
     "Maximum refund guarantee",
-    "CPA certified professionals", 
+    "CPA certified professionals",
     "Electronic filing included",
     "Year-round support",
     "Audit protection available",
@@ -45,7 +45,7 @@ export function IndividualTax() {
   const documents = [
     "T4 slips (employment income)",
     "T4A slips (pension, EI benefits)",
-    "T5 slips (investment income)", 
+    "T5 slips (investment income)",
     "RRSP contribution receipts",
     "Medical expense receipts",
     "Charitable donation receipts",
@@ -107,7 +107,7 @@ export function IndividualTax() {
                   <div className="flex-1">
                     <h3 className="text-xl font-bold text-gray-900 mb-2">{service.title}</h3>
                     <p className="text-gray-600 mb-4 text-sm">{service.description}</p>
-                    
+
                     <div className="space-y-1 mb-4">
                       {service.features.map((feature, idx) => (
                         <div key={idx} className="flex items-center gap-2">
@@ -156,64 +156,59 @@ export function IndividualTax() {
             {/* Required Documents */}
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Documents You'll Need</h3>
-              <div className="bg-gray-50 rounded-xl p-6">
-                <div className="space-y-3">
-                  {documents.map((doc, index) => (
-                    <div key={index} className="flex items-center gap-3">
-                      <div className="w-5 h-5 border-2 border-blue-600 rounded flex items-center justify-center">
-                        <FaCheck className="w-3 h-3 text-blue-600" />
-                      </div>
-                      <span className="text-gray-700 text-sm">{doc}</span>
+              <div className="space-y-3">
+                {documents.map((doc, index) => (
+                  <div key={index} className="flex items-center gap-3">
+                    <div className="w-5 h-5 border-2 border-blue-600 rounded flex items-center justify-center">
+                      <FaCheck className="w-3 h-3 text-blue-600" />
                     </div>
-                  ))}
-                </div>
+                    <span className="text-gray-700 text-sm">{doc}</span>
+                  </div>
+                ))}
               </div>
             </div>
 
             {/* Tax Tips & Deadlines */}
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Important Tips & Deadlines </h3>
-              <div className="bg-blue-50 rounded-xl p-6">
-                <div className="space-y-4">
-                  
-                  <div className="flex items-start gap-3">
-                    <div className="w-5 h-5 bg-orange-600 rounded-full flex items-center justify-center mt-1">
-                      <FaShieldAlt className="w-3 h-3 text-white" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-gray-900 mb-1">Keep Records</h4>
-                      <p className="text-sm text-gray-700">Save receipts for 6 years</p>
-                    </div>
+              <div className="space-y-4">
+                <div className="flex items-start gap-3">
+                  <div className="w-5 h-5 bg-orange-600 rounded-full flex items-center justify-center mt-1">
+                    <FaShieldAlt className="w-3 h-3 text-white" />
                   </div>
-                  
-                  <div className="flex items-start gap-3">
-                    <div className="w-5 h-5 bg-purple-600 rounded-full flex items-center justify-center mt-1">
-                      <FaCheck className="w-3 h-3 text-white" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-gray-900 mb-1">Direct Deposit</h4>
-                      <p className="text-sm text-gray-700">Get refunds faster with CRA</p>
-                    </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-1">Keep Records</h4>
+                    <p className="text-sm text-gray-700">Save receipts for 6 years</p>
+                  </div>
+                </div>
 
+                <div className="flex items-start gap-3">
+                  <div className="w-5 h-5 bg-purple-600 rounded-full flex items-center justify-center mt-1">
+                    <FaCheck className="w-3 h-3 text-white" />
                   </div>
-                  <div className="flex items-start gap-3">
-                    <div className="w-5 h-5 bg-blue-600 rounded-full flex items-center justify-center mt-1">
-                      <FaCalendarAlt className="w-3 h-3 text-white" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-gray-900 mb-1">Filing Deadline</h4>
-                      <p className="text-sm text-gray-700">April 30, 2025 for most taxpayers</p>
-                    </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-1">Direct Deposit</h4>
+                    <p className="text-sm text-gray-700">Get refunds faster with CRA</p>
                   </div>
-                  
-                  <div className="flex items-start gap-3">
-                    <div className="w-5 h-5 bg-green-600 rounded-full flex items-center justify-center mt-1">
-                      <FaFileInvoiceDollar className="w-3 h-3 text-white" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-gray-900 mb-1">RRSP Contribution</h4>
-                      <p className="text-sm text-gray-700">Deadline: March 1, 2025</p>
-                    </div>
+
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-5 h-5 bg-blue-600 rounded-full flex items-center justify-center mt-1">
+                    <FaCalendarAlt className="w-3 h-3 text-white" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-1">Filing Deadline</h4>
+                    <p className="text-sm text-gray-700">April 30, 2025 for most taxpayers</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="w-5 h-5 bg-green-600 rounded-full flex items-center justify-center mt-1">
+                    <FaFileInvoiceDollar className="w-3 h-3 text-white" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-1">RRSP Contribution</h4>
+                    <p className="text-sm text-gray-700">Deadline: March 1, 2025</p>
                   </div>
                 </div>
               </div>
